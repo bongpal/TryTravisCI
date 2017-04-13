@@ -1,0 +1,6 @@
+language: objective-c
+cache: bundler
+
+script:
+  - xctool -workspace TryTravisCI.xcworkspace -scheme TryTravisCI -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace TryTravisCI.xcworkspace -scheme TryTravisCITests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
