@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25060A7153224C3A9EF89BDA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004B22F831A94951A04ACEEF /* libPods.a */; };
 		2EC437CA18D8EDBB00728D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC437C918D8EDBB00728D59 /* Foundation.framework */; };
 		2EC437CC18D8EDBB00728D59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC437CB18D8EDBB00728D59 /* CoreGraphics.framework */; };
 		2EC437CE18D8EDBB00728D59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC437CD18D8EDBB00728D59 /* UIKit.framework */; };
@@ -22,7 +21,7 @@
 		2EC437EB18D8EDBB00728D59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC437CD18D8EDBB00728D59 /* UIKit.framework */; };
 		2EC437F318D8EDBB00728D59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EC437F118D8EDBB00728D59 /* InfoPlist.strings */; };
 		2EC437F518D8EDBB00728D59 /* TryTravisCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC437F418D8EDBB00728D59 /* TryTravisCITests.m */; };
-		D09F125D65604A6194FD4EDC /* libPods-TryTravisCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F36698FEB6544604A3E4A877 /* libPods-TryTravisCITests.a */; };
+		B4908DA56766AD7393637D4A /* libPods-TryTravisCITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ECF232F482CFF4FE9FBB2D /* libPods-TryTravisCITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004B22F831A94951A04ACEEF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC437C618D8EDBB00728D59 /* TryTravisCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTravisCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC437C918D8EDBB00728D59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2EC437CB18D8EDBB00728D59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,9 +55,9 @@
 		2EC437F218D8EDBB00728D59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EC437F418D8EDBB00728D59 /* TryTravisCITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryTravisCITests.m; sourceTree = "<group>"; };
 		2EC437FE18D8EE5E00728D59 /* libPods-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Kiwi.a"; path = "Pods/build/Debug-iphoneos/libPods-Kiwi.a"; sourceTree = "<group>"; };
-		460AAAE9478A4C67BC1D9DDB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		5BDF55B2F33F4B27898B85FD /* Pods-TryTravisCITests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryTravisCITests.xcconfig"; path = "Pods/Pods-TryTravisCITests.xcconfig"; sourceTree = "<group>"; };
-		F36698FEB6544604A3E4A877 /* libPods-TryTravisCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryTravisCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECF232F482CFF4FE9FBB2D /* libPods-TryTravisCITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TryTravisCITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74636CED98AEC6B5931CEB1D /* Pods-TryTravisCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryTravisCITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TryTravisCITests/Pods-TryTravisCITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A0197E88DDB3F8702FE816 /* Pods-TryTravisCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryTravisCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TryTravisCITests/Pods-TryTravisCITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				2EC437CC18D8EDBB00728D59 /* CoreGraphics.framework in Frameworks */,
 				2EC437CE18D8EDBB00728D59 /* UIKit.framework in Frameworks */,
 				2EC437CA18D8EDBB00728D59 /* Foundation.framework in Frameworks */,
-				25060A7153224C3A9EF89BDA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +78,7 @@
 				2EC437E918D8EDBB00728D59 /* XCTest.framework in Frameworks */,
 				2EC437EB18D8EDBB00728D59 /* UIKit.framework in Frameworks */,
 				2EC437EA18D8EDBB00728D59 /* Foundation.framework in Frameworks */,
-				D09F125D65604A6194FD4EDC /* libPods-TryTravisCITests.a in Frameworks */,
+				B4908DA56766AD7393637D4A /* libPods-TryTravisCITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +92,7 @@
 				2EC437EE18D8EDBB00728D59 /* TryTravisCITests */,
 				2EC437C818D8EDBB00728D59 /* Frameworks */,
 				2EC437C718D8EDBB00728D59 /* Products */,
-				460AAAE9478A4C67BC1D9DDB /* Pods.xcconfig */,
-				5BDF55B2F33F4B27898B85FD /* Pods-TryTravisCITests.xcconfig */,
+				C1F58E1225EDE7F4B76C3F0A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +113,7 @@
 				2EC437CB18D8EDBB00728D59 /* CoreGraphics.framework */,
 				2EC437CD18D8EDBB00728D59 /* UIKit.framework */,
 				2EC437E818D8EDBB00728D59 /* XCTest.framework */,
-				004B22F831A94951A04ACEEF /* libPods.a */,
-				F36698FEB6544604A3E4A877 /* libPods-TryTravisCITests.a */,
+				57ECF232F482CFF4FE9FBB2D /* libPods-TryTravisCITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,6 +161,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C1F58E1225EDE7F4B76C3F0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A0197E88DDB3F8702FE816 /* Pods-TryTravisCITests.debug.xcconfig */,
+				74636CED98AEC6B5931CEB1D /* Pods-TryTravisCITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,11 +177,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EC437F818D8EDBB00728D59 /* Build configuration list for PBXNativeTarget "TryTravisCI" */;
 			buildPhases = (
-				3E0483DCDB87470E8E7DCDEB /* Check Pods Manifest.lock */,
 				2EC437C218D8EDBB00728D59 /* Sources */,
 				2EC437C318D8EDBB00728D59 /* Frameworks */,
 				2EC437C418D8EDBB00728D59 /* Resources */,
-				317D4ECFF91141878F4A8ADE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,11 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EC437FB18D8EDBB00728D59 /* Build configuration list for PBXNativeTarget "TryTravisCITests" */;
 			buildPhases = (
-				592EF2806DED43A6804D7872 /* Check Pods Manifest.lock */,
+				93D9B4399C28AA0439657408 /* [CP] Check Pods Manifest.lock */,
 				2EC437E318D8EDBB00728D59 /* Sources */,
 				2EC437E418D8EDBB00728D59 /* Frameworks */,
 				2EC437E518D8EDBB00728D59 /* Resources */,
-				64809F38D8C94D97BD0BA675 /* Copy Pods Resources */,
+				2CF769256CE16DBFCA189966 /* [CP] Embed Pods Frameworks */,
+				81853F6DE5DADE924986397D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +220,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Krister Kari";
 				TargetAttributes = {
+					2EC437C518D8EDBB00728D59 = {
+						DevelopmentTeam = EP477369SH;
+					};
 					2EC437E618D8EDBB00728D59 = {
 						TestTargetID = 2EC437C518D8EDBB00728D59;
 					};
@@ -263,64 +269,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		317D4ECFF91141878F4A8ADE /* Copy Pods Resources */ = {
+		2CF769256CE16DBFCA189966 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryTravisCITests/Pods-TryTravisCITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E0483DCDB87470E8E7DCDEB /* Check Pods Manifest.lock */ = {
+		81853F6DE5DADE924986397D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TryTravisCITests/Pods-TryTravisCITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		592EF2806DED43A6804D7872 /* Check Pods Manifest.lock */ = {
+		93D9B4399C28AA0439657408 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		64809F38D8C94D97BD0BA675 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-TryTravisCITests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,10 +445,10 @@
 		};
 		2EC437F918D8EDBB00728D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 460AAAE9478A4C67BC1D9DDB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = EP477369SH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryTravisCI/TryTravisCI-Prefix.pch";
 				INFOPLIST_FILE = "TryTravisCI/TryTravisCI-Info.plist";
@@ -472,10 +463,10 @@
 		};
 		2EC437FA18D8EDBB00728D59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 460AAAE9478A4C67BC1D9DDB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = EP477369SH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryTravisCI/TryTravisCI-Prefix.pch";
 				INFOPLIST_FILE = "TryTravisCI/TryTravisCI-Info.plist";
@@ -490,7 +481,7 @@
 		};
 		2EC437FC18D8EDBB00728D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDF55B2F33F4B27898B85FD /* Pods-TryTravisCITests.xcconfig */;
+			baseConfigurationReference = B4A0197E88DDB3F8702FE816 /* Pods-TryTravisCITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryTravisCI.app/TryTravisCI";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -522,7 +513,7 @@
 		};
 		2EC437FD18D8EDBB00728D59 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDF55B2F33F4B27898B85FD /* Pods-TryTravisCITests.xcconfig */;
+			baseConfigurationReference = 74636CED98AEC6B5931CEB1D /* Pods-TryTravisCITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TryTravisCI.app/TryTravisCI";
 				FRAMEWORK_SEARCH_PATHS = (
